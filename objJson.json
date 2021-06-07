@@ -1,0 +1,21 @@
+// JavaScript source code
+var a = {
+  "path": string,
+  "lastSubmitted": datetime,
+  "isPending": boolean,
+  "isSitemapsIndex": boolean,
+  "type": string,
+  "lastDownloaded": datetime,
+  "warnings": long,
+  "errors": long,
+  "contents": [
+    {
+      "type": string,
+      "submitted": long,
+      "indexed": long
+    }
+  ]
+}
+
+var b = JSON.parse(a);
+console.log(b);
